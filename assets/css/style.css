@@ -1,0 +1,243 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../../assets/images/qbkls.png");
+    margin: 0;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: calc(100vh - 4rem);
+}
+
+/* Fonts */
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+/* Nav Bar */
+.navbar {
+    height: 3.3rem;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar h1 {
+    float: left;
+    margin: 0;
+    padding: 0.8rem;
+    background-color: #4aaaa5;
+    color: #fff;
+
+}
+
+.navbar ul {
+    float: right;
+    list-style-type: none;
+}
+
+.navbar li {
+    float: right;
+    margin: 0.5rem;
+    border-right: 1px solid #777;
+    padding-right: 0.7rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #777;
+}
+
+.navbar a:hover {
+    color: #DA6A3D;
+}
+
+/* About Me*/
+
+.about-me {
+   width: 60%; 
+   background: #fff;
+   margin: 28px auto;
+   padding-bottom: 4rem;
+   border: 0.7px solid #ddd;
+   overflow: auto;
+   clear: both;
+   
+}
+.about-me p {
+    line-height: 1.7em;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    margin-top: 0;
+
+}
+
+.image-wrap img {
+    float: left;
+    margin-right: 10px;
+}
+
+.about-me h2 {
+    color: #4aaaa5;
+    padding-left: 2rem;
+}
+
+/* Contact Page */
+
+.contact-form {
+    background-color: #fff;
+    width: 60%;
+    height: 50%;
+    margin: 2rem auto;
+    padding: 0.7rem;
+    border: 0.7px solid #ddd;
+}
+
+.contact-form hr {
+    margin-left: 12px;
+}
+
+
+#contact-info,
+.contact-form h2 {
+    padding-left: 0.7rem;
+}
+
+#contact-info input {
+    width: 95%;
+    margin: 0.4rem 0px 1rem 0px;
+    height: 24px;
+}
+
+#contact-info textarea {
+    resize: none;
+    height: 140px;
+    width: 95%;
+    margin: 0.4rem 0 1rem 0;
+}
+
+#contact-info #submitBtn {
+    background-color: #4aaaa5;
+    border: none;
+    color: #fff;
+    padding: 0.6rem 0.8rem;
+}
+
+/* Portfolio */
+.portfolio {
+    width: 60%;
+    margin: 10px auto 30px;
+    background-color: #fff;
+    padding-left: 20px;
+
+}
+
+.portfolio-images img{
+    height: 200px;
+    width: 250px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+
+.first-row,
+.second-row,
+.third-row {
+    float: left;
+    position: relative;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5 {
+    color: #fff;
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.2rem;
+}
+
+
+.text-1,
+.text-3,
+.text-5 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+
+}
+
+.text-2,
+.text-4 {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+.portfolio hr {
+    margin-left: 0;
+}
+
+
+
+/* Footer*/
+footer {
+    color: #fff;
+    text-align: center;
+    background-color: #666;
+    margin: 0;
+    width: 100%;
+    height: 4rem;
+    border-top: 7px solid #4aaaa5;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 2rem;
+}
+
+/* Images */
+
+.image-wrap img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    padding-left: 1.7rem;
+}
+
+/* Horizontal Lines */
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width: 95%;
+}
+
+
+/* Media Query */
+
